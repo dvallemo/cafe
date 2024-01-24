@@ -50,16 +50,16 @@ body {
     display: block; /*displays image as a block*/
     margin-left: auto;
     margin-right: auto;
-    margin-top: -25px;
+    margin-top: -25px; /*takes away the bottom, if positive it would add to the bottom separating it from its envirnoment containter*/
   }
   
-  hr {
+  hr {/*used to eddit the red horizontal line*/
     height: 2px;
     background-color: #9f1239;
     border-color: black;
   }
   
-  .bottom-line {
+  .bottom-line { /*class that creats border on the horizontal line*/
     margin-top: 25px;
   }
   
