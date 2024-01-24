@@ -1,15 +1,29 @@
 body {
-    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
-    font-family: sans-serif;
-    padding: 20px;
+    background-image: url(https://images.wallpaperscraft.com/image/single/coffee_beans_coffee_brown_193240_3840x2400.jpg); /*coffee beans background picture*/
+    background-size: 2600px; /*lenghtxhight   2600px 1400px*/
+    font-family: sans-serif; 
+    padding: 20px; /*pad around the body with width of 20px*/
   }
   
-  h1 {
-    font-size: 40px;
-    margin-top: 0;
-    margin-bottom: 15px;
+  h1 { /*manipulates the h1<camper cafe) text*/
+    font-size: 40px; /*size of the text*/
+    margin-top: 0; /*margin top manipulates teh hight between the top margin of teh text and the body margin or form its neighbor margin*/
+    margin-bottom: 15px; /*some separation distance from the neighbor margin which is the established in 2020 text*/
+    background-color: #9f1239;
+    margin-left: 150px;
+    margin-right: 150px;
+    border: 8px solid black;
   }
-  
+
+  .coffee_container{
+    background-color: #9f1239;
+    border: 4px solid black;
+  }
+  .desserts_container{
+    background-color: #9f1239;
+    border: 4px solid black;
+    margin-top: 20px;
+  }    
   h2 {
     font-size: 30px;
   }
@@ -18,21 +32,22 @@ body {
     font-style: italic;
   }
   
-  h1, h2, p {
+  h1, h2, p { /*centers all all the text, campter cafe, coffee, desserts, and all other paragraph texts*/
     text-align: center;
   }
   
-  .menu {
+  .menu { /*manipulates everything in the body */
     width: 80%;
     background-color: burlywood;
-    margin-left: auto;
+    margin-left: auto; /*margin-left auto and right auto together calculate the margin on each side and concequently putes the menu perfetly centered on the middle*/
     margin-right: auto;
-    padding: 20px;
-    max-width: 500px;
+    padding: 20px;/*menu is a class on the div tag that contanerizes the main container tag, so we can amnipulate the padding of the main as well*/
+    max-width: 500px; /*no matter how much in width the page grows, the menu will have a max width of 500px, after
+    that it won't move*/
   }
   
   img {
-    display: block;
+    display: block; /*displays image as a block*/
     margin-left: auto;
     margin-right: auto;
     margin-top: -25px;
@@ -40,8 +55,8 @@ body {
   
   hr {
     height: 2px;
-    background-color: brown;
-    border-color: brown;
+    background-color: #9f1239;
+    border-color: black;
   }
   
   .bottom-line {

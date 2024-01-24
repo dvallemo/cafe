@@ -5,19 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cafe Menu</title>
     <link href="styles.css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg"
   </head>
   <body>
-    <div class="menu">
+    <div class="menu" > <!--made this class to manipulate the position of the menu on the body of the website,
+    the rest of the bodu is just a picture-->
       <main>
-        <h1>CAMPER CAFE</h1>
-        <p class="established">Est. 2020</p>
+        <h1>DAVE'S CAFE</h1>
+        <p class="established">Est. 2020</p> <!--created a class so that we can italicized the established in 2020 text-->
         <hr> <!--brown divisor-->
-        <section>
+        <section class="coffee_container"> <!--created a new section that contains the coffee flavors and pirces-->
           <h2>Coffee</h2>
           <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon"/>
-          <article class="item">
-            <p class="flavor">French Vanilla</p><p class="price">$3.00</p>
-          </article>
+          <article class="item"> <!--creates a mini section that contains specific elements inside, we need to create a class to identify this ariticle instance-->
+            <p class="flavor">French Vanilla</p><p class="price">$3.00</p> <!--the specific item inside of the article-->
+          </article> <!--need to create classes for flavor and price so that we can identify them and mainipulate them in the stylesheet-->
           <article class="item">
             <p class="flavor">Caramel Macchiato</p><p class="price">$3.75</p>
           </article>
@@ -29,16 +32,16 @@
           </article>
           <article class="item">
             <p class="flavor">Mocha</p><p class="price">$4.50</p>
-          </article>
+          </article> <!--end of the coffee section of the menu-->
         </section>
-        <section>
+        <section class="desserts_container"> <!--starting a new section for the desserts portion of the menu-->
           <h2>Desserts</h2>
           <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon"/>
-          <article class="item">
+          <article class="item"> <!--continue with these class items but now the class flavor is replaced with the class dessert-->
             <p class="dessert">Donut</p><p class="price">$1.50</p>
           </article>
           <article class="item">
-            <p class="dessert">Cherry Pie</p><p class="price">$2.75</p>
+            <p class="dessert">Cherry Pie</p><p class="price">$2.75</p> <!--the paragraphs must be on the same line-->
           </article>
           <article class="item">
             <p class="dessert">Cheesecake</p><p class="price">$3.00</p>
@@ -46,12 +49,12 @@
           <article class="item">
             <p class="dessert">Cinnamon Roll</p><p class="price">$2.50</p>
           </article>
-        </section>
-      </main>
-      <hr class="bottom-line">
+        </section> <!--end of the desserts portion of the menu-->
+      </main><!--end of the menu and concequently the body as well-->
+      <hr class="bottom-line"> <!--? maybe juist to identify? We did not use this in the stylessheet, prob like item class-->
       <footer>
         <p>
-          <a href="https://www.freecodecamp.org" target="_blank">Visit our website</a>
+          <a href="https://github.com/dvallemo" target="_blank">Visit our website</a>
         </p>
         <p class="address">123 Free Code Camp Drive</p>
       </footer>
